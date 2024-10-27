@@ -5,6 +5,8 @@ This is to create a computerized version of the game Rock Paper Scissors. The us
 October 18, 2024
 After reading the directions fully, I have written my psuedocode and began working on the Javascript file.
 Computer prompt is written. Human prompt is also written. Both compile well.
+October 27, 2024
+Completed code
 
 Psuedocode:
 When user inputs an initial response of rock, paper or scissor in console
@@ -16,6 +18,11 @@ Computer intializes response of rock, paper or scissor
     Rock 0<=x>=3
     Paper 4<=x>=6
     Scissors 7<=x>9
+Logic for a single round
+    Playable round must be made into function
+    Function must call both human and computer answers
+    Make sure human answer isn't case sensitive
+    Create winning scenarios based off of answers
 
 Rules of the Game:
 Rock beats Scissors
